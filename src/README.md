@@ -8,13 +8,13 @@ Process Log Data Implementation
 ### Task
 
 The task is to read the given data.log fine and process the data and write the result into an xml file. The sample log data is given below:
-
+```sh
 sel:6,ccd1ca23­e502­4ad6­9617­269b7d40cc4c,Banner­-71,6.449
 sel:6,b1324a53­6915­47bf­8ee6­46e9ace57fc9,Banner­-71,22.221
 cnt:1,ccd1ca23­e502­4ad6­9617­269b7d40cc4c
 cnt:114,ccd1ca23­e502­4ad6­9617­269b7d40cc4c
 cnt:114,b1324a53­6915­47bf­8ee6­46e9ace57fc9
-
+```
 So above data is about a Banner with ID "Banner-71". Every row has a row ID, then a key value. Task is to output the cost each banner, if that banner is displayed. The information about if the banner is displayed is given by the row ID is "1" (eg- cnt:1). As in the abaove case Banner-71 has two different key values but one is displayed with price 6.449, because this particual banner has row ID 1. Hence the output is shown below:
 
     <Banner id="Banner­-71"  revenues="6.449">
@@ -66,3 +66,4 @@ This generates Doxygen docuementation inside doxygen folder for the current proj
 CMakeLists.txt file unders source folder:
 
 include(cmake/doxygen.cmake)
+
