@@ -6,5 +6,5 @@ Application
 
 -----------------
 Application, which is a folder container, has all the
-executables that uses the computer system to perform
+executables for current application to perform
 desired functions.

@@ -51,7 +51,7 @@ public:
      *
      *  \param 	argc  The given number of command line arguments.
      *  \param 	argv  The given command line arguments.
-	 *  \return Ptr   object pointer to the LogProcessor class.
+     *  \return Ptr   object pointer to the LogProcessor class.
      */
     static Ptr Create(int argc, char* argv[]);
 

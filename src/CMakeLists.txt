@@ -6,7 +6,7 @@ include(cmake/c++11.cmake)
 include(cmake/doxygen.cmake)
 
 INCLUDE(FindPkgConfig)
-#no external package required for building, package checking can be done using: pkg_check_modules(), find_package()
+#no external package required for building, check for package can be done using: pkg_check_modules(), find_package()
 
 include_directories(
     ${PROJECT_SOURCE_DIR}
